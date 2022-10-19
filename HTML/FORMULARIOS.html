@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>FORMULARIOS</title>
+<link href="../CSS/style_page.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<header>
+  <h1>FORMULARIOS</h1>
+</header>
+<nav>
+  <ul id="navlist">
+	<li><a href="../INDEX.html">INDEX</a></li>
+    <li><a href="LISTAS.html">LISTAS</a></li>
+    <li><a href="TABLAS.html">TABLAS</a></li>
+    <li><a href="ENLACES.html">ENLACES</a></li>
+    <li><a href="FORMATOS DE TEXTO.html">FORMATOS</a></li>
+	      <li><a href="IMÁGENES.html">IMÁGENES</a></li>
+	      <li><a href="AUDIOS.html">AUDIOS</a></li>
+	      <li><a href="VÍDEOS.html">VÍDEOS</a></li>
+  </ul>
+</nav>
+<main>
+  <section>
+    <h2>Formulario 01.</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum doloribus repudiandae similique consectetur qui vitae minima nesciunt placeat beatae doloremque aperiam quod recusandae, quaerat nemo animi eos fugit voluptate non. Nulla eum iure consequuntur doloremque maxime assumenda iusto deleniti veritatis. Quaerat similique reprehenderit totam iusto, quo provident, enim praesentium accusantium eius nihil minima tempore cumque minus ducimus magni veniam ratione harum autem. Mollitia unde quis, ad eveniet totam ea! Id voluptate velit porro? Ratione, vero eveniet ducimus ullam velit sint fugiat odit eos soluta aliquam atque sunt, dicta impedit facilis excepturi, dignissimos voluptates? Ipsum, architecto quidem perferendis iusto voluptatibus officiis?</p>
+	<form id="form01" name="form01" method="get">
+	  <label for="Nombre">Nombre:</label>
+	  <input type="text" name="nombre" id="nombre">
+		<label for="Apellido">Apellido:</label>
+		<input type="text" name="apellido" id="apellido">
+		<input type="submit" name="Botón01" id="Botón01" formaction="PROCESAMIENTO.html" formmethod="get" value="Enviar">
+	</form>
+  </section>
+  <section>
+    <h2>Formulario 02.</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum doloribus repudiandae similique consectetur qui vitae minima nesciunt placeat beatae doloremque aperiam quod recusandae, quaerat nemo animi eos fugit voluptate non. Nulla eum iure consequuntur doloremque maxime assumenda iusto deleniti veritatis. Quaerat similique reprehenderit totam iusto, quo provident, enim praesentium accusantium eius nihil minima tempore cumque minus ducimus magni veniam ratione harum autem. Mollitia unde quis, ad eveniet totam ea! Id voluptate velit porro? Ratione, vero eveniet ducimus ullam velit sint fugiat odit eos soluta aliquam atque sunt, dicta impedit facilis excepturi, dignissimos voluptates? Ipsum, architecto quidem perferendis iusto voluptatibus officiis?</p>
+    <p>&nbsp;</p>
+<form method="get" id="form02">
+  <label>Elige tu género:</label>
+  <table width="100" class="tabla_centrada">
+    <tr>
+      <td><label>
+        <input type="radio" name="G&eacute;nero" value="fem" id="Geacutenero_0">
+        Femenino</label></td>
+      </tr>
+    <tr>
+      <td><label>
+        <input type="radio" name="G&eacute;nero" value="masc" id="Geacutenero_1">
+        Masculino</label></td>
+      </tr>
+  </table>
+  Bias de Seventeen: <select id="select">
+    <option value="sc">Seungcheol.</option>
+    <option value="han">Jeonghan.</option>
+    <option value="shua">Joshua.</option>
+    <option value="jun">Jun.</option>
+    <option value="hosh">Hoshi.</option>
+    <option value="wonu">Wonwoo.</option>
+    <option value="zi">Woozi.</option>
+    <option value="hao">Minghao.</option>
+    <option value="gyu">Mingyu.</option>
+    <option value="dk">DK.</option>
+    <option value="kwan">Seungkwan.</option>
+    <option value="ver">Vernon.</option>
+    <option value="nonu">Dino.</option>
+    </select>
+  <p>
+    <label>¿Cuál es tu line?</label>
+    <br>
+    <label>
+      <input type="checkbox" name="Subunidad." value="rl" id="Subunidad._0">
+      Rap line.</label>
+    <br>
+    <label>
+      <input type="checkbox" name="Subunidad." value="vl" id="Subunidad._1">
+      Vocal line.</label>
+    <br>
+    <label>
+      <input type="checkbox" name="Subunidad." value="dl" id="Subunidad._2">
+      Dance line.</label>
+    <br><br>
+    <label>¿Cuál es el color representativo de Seventeen?</label>
+    <br>
+    <label>Selecciona uno: </label><input type="color"><br><br>
+    <label>¿Cuál es la fecha debut de Seventeen?</label>
+    <input type="date"><br><br>
+    <label>¿A qué hora se emiten los Gose?</label><br>
+    <label>Selecciona un horario:</label><input type="time"><br><br>
+    <label for="quantity">¿Cuántos integrantes conforman Seventeen?</label><br>
+    <input type="number" id="quantity" name="quantity" min="1" max="15"><br><br>
+    <label>¡Felicidades!¿Sabes cómo se llaman los seguidores de Seventeen?</label><br><br>
+    <input type="button" onclick="alert('¡Bienvenida al fandom, carat!')" value="Descúbreme.">
+    </p>
+  <br><br>
+  <input type="submit" name="Botón02" id="Botón02" formaction="PROCESAMIENTO.html" formmethod="get" value="Enviar">
+</form>
+  </section>
+  <section>
+    <h2>Contacto.</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum doloribus repudiandae similique consectetur qui vitae minima nesciunt placeat beatae doloremque aperiam quod recusandae, quaerat nemo animi eos fugit voluptate non. Nulla eum iure consequuntur doloremque maxime assumenda iusto deleniti veritatis. Quaerat similique reprehenderit totam iusto, quo provident, enim praesentium accusantium eius nihil minima tempore cumque minus ducimus magni veniam ratione harum autem. Mollitia unde quis, ad eveniet totam ea! Id voluptate velit porro? Ratione, vero eveniet ducimus ullam velit sint fugiat odit eos soluta aliquam atque sunt, dicta impedit facilis excepturi, dignissimos voluptates? Ipsum, architecto quidem perferendis iusto voluptatibus officiis?</p>
+	<form method="get" id="form03">
+		Correo electrónico:<br>
+	<input type="email" id="op01"><br><br>
+		Comentario: <br><textarea maxlength="250" id="op02"></textarea>
+	  	  <br><br>
+		<input type="submit" name="Botón03" id="Botón03" formaction="PROCESAMIENTO.html" formmethod="get" value="Enviar.">
+    </form>
+  </section>
+</main>
+<footer>
+<h6>Hecho por Guadalupe J. Hernández Ortega</h6></footer>
+</body>
+</html>
